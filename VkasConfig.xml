@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VkasConfig>
+  <ConfigName>Sample configuration set</ConfigName>
+  <Version>1.0</Version>
+  <MaxGenerations>1000</MaxGenerations>
+  <PopulationSize>10</PopulationSize>
+  <DesiredFitness>95.0</DesiredFitness>
+  <Operators>
+  	<Op>+</Op>
+  	<Op>-</Op>
+  </Operators>
+  <LinkingOp>+</LinkingOp>
+  <GeneHeadLen>8</GeneHeadLen>
+  <GenesPerChromosome>3</GenesPerChromosome>
+  <MutationRate>0.051</MutationRate>
+  <OnePointRecombinationRate>0.3</OnePointRecombinationRate>
+  <TwoPointRecombinationRate>0.3</TwoPointRecombinationRate>
+  <GeneRecombinationRate>0.1</GeneRecombinationRate>
+  <ISTranspositionRate>0.1</ISTranspositionRate>
+  <ISTransposonMaxLength>3</ISTransposonMaxLength>
+  <RISTranspositionRate>0.1</RISTranspositionRate>
+  <RISTransposonMaxLength>3</RISTransposonMaxLength>
+  <GeneTranspositionRate>0.1</GeneTranspositionRate>
+</VkasConfig>
+

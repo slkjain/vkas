@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<VkasData>
+  <DataSetName>Sample experimental data set</DataSetName>
+  <InputVars>
+  	<InputVar>a</InputVar>
+  	<InputVar>b</InputVar>
+  </InputVars>
+  <DataValues>
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>1.0</IndVar>
+        <IndVar>1.0</IndVar>
+      </IndependentVars>
+      <DependentVar>2.0</DependentVar>
+    </ValueSet>
+
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>1.0</IndVar>
+        <IndVar>2.0</IndVar>
+      </IndependentVars>
+      <DependentVar>3.0</DependentVar>
+    </ValueSet>
+
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>3.0</IndVar>
+        <IndVar>1.0</IndVar>
+      </IndependentVars>
+      <DependentVar>4.0</DependentVar>
+    </ValueSet>
+
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>44.0</IndVar>
+        <IndVar>4.0</IndVar>
+      </IndependentVars>
+      <DependentVar>48.0</DependentVar>
+    </ValueSet>
+
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>3.0</IndVar>
+        <IndVar>33.0</IndVar>
+      </IndependentVars>
+      <DependentVar>36.0</DependentVar>
+    </ValueSet>
+
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>23.0</IndVar>
+        <IndVar>11.0</IndVar>
+      </IndependentVars>
+      <DependentVar>34.0</DependentVar>
+    </ValueSet>
+
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>0.0</IndVar>
+        <IndVar>12.0</IndVar>
+      </IndependentVars>
+      <DependentVar>12.0</DependentVar>
+    </ValueSet>
+
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>13.0</IndVar>
+        <IndVar>8.0</IndVar>
+      </IndependentVars>
+      <DependentVar>21.0</DependentVar>
+    </ValueSet>
+
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>111.0</IndVar>
+        <IndVar>2.0</IndVar>
+      </IndependentVars>
+      <DependentVar>113.0</DependentVar>
+    </ValueSet>
+
+    <ValueSet>
+      <IndependentVars>
+        <IndVar>4.0</IndVar>
+        <IndVar>101.0</IndVar>
+      </IndependentVars>
+      <DependentVar>105.0</DependentVar>
+    </ValueSet>
+  </DataValues>
+</VkasData>
+
