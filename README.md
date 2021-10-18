@@ -15,7 +15,7 @@ xml format.
 
 Mandatory Requirement:
 ======================
-Java Runtime version 1.4 should be available.
+Java Runtime version 1.4 or greater should be available.
 
 How to build the source:
 ========================
@@ -23,16 +23,16 @@ How to build the source:
 * Create a pakcage named vkas in it.
 * Add all .java files except vkas.java in the package.
 * Keep vkas.java in default package.
-* Set compiler compliance level to 1.4 (i.e. java 1.4)
+* Set compiler compliance level to 1.4 (i.e. java 1.4) or higher
 * Build.
 
 License:
 ========
-LGPL (Lesser GPL) version 2.1 (See license.txt)
+LGPL (Lesser GPL) version 2.1 (See license)
 
 Copyright:
 ==========
-Shailendra Jain (SLKJain@Yahoo.com) 
+Shailendra Jain (SLKJain at Yahoo.com) 
 
 Overview of vkas:
 =================
@@ -95,7 +95,7 @@ Summary of a test run:
     version              : 1.0
     webpage              : https://sourceforge.net/projects/vikasg/
     copyright            : (C) 2005 by Shailendra Jain
-    email                : SLKJain@Yahoo.Com
+    email                : SLKJain at Yahoo.Com
 ***************************************************************************
 ***************************************************************************
 *                                                                         *
