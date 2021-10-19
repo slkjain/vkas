@@ -1,6 +1,6 @@
 ## Welcome to VKAS
 
-VKAS is a Java based solver that can be used to find out the relationship between a set of independent and dependent variables. I developed it way back in 2005 based on the paper "Gene Expression Programming in Problem Solving" (https://www.gene-expression-programming.com/webpapers/ferreira-WSC6.pdf). VKAS source code was earlier published on SourceForge (https://sourceforge.net/projects/vikasg/). I recently moved the source code to GitHub.
+VKAS is a Java based solver that can be used to find out the relationship between a set of independent and dependent variables. I developed it way back in 2005 based on the paper [Gene Expression Programming in Problem Solving](https://www.gene-expression-programming.com/webpapers/ferreira-WSC6.pdf). VKAS source code was earlier published on [SourceForge](https://sourceforge.net/projects/vikasg/). I recently moved the source code to GitHub.
 
 ### What method does VKAS use
 
