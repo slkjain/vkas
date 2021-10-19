@@ -31,16 +31,7 @@ to fitness calculation and if a suitable answer chromosome is found then vkas st
 
 a sample run is shown at the end of this file.
 
-Format of configuration file:
-=============================
-Please see the attached VkasConfig.xml
-
-Format of data file:
-====================
-Please see the attached VkasData.xml
-
-Summary of a test run:
-======================
+###  Summary of a test run:
 ```
 ***************************************************************************
                           vkas (a genetic function finder)
