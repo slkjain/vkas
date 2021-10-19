@@ -1,5 +1,5 @@
 # vkas
-VKAS - a genetic function finder
+VKAS - A Solver based on Gene Expression Programming
 
 Version:
 ========
@@ -10,8 +10,7 @@ Usage:
 From the folder containing Vkas folder, type following -
 java vkas VkasConfig.xml VkasData.xml
 
-You may provide your own config and data files in
-xml format.
+You may provide your own config and data files in xml format.
 
 Mandatory Requirement:
 ======================
@@ -20,7 +19,7 @@ Java Runtime version 1.4 or greater should be available.
 How to build the source:
 ========================
 * Create an eclipse java project
-* Create a pakcage named vkas in it.
+* Create a pakcage named vkas in the project.
 * Add all .java files except vkas.java in the package.
 * Keep vkas.java in default package.
 * Set compiler compliance level to 1.4 (i.e. java 1.4) or higher
@@ -36,45 +35,36 @@ Shailendra Jain (SLKJain at Yahoo.com)
 
 Overview of vkas:
 =================
-vkas is a genetic function or relationship finder software.
-It can be used to find out the relationship between a set of
-independent and dependent data.
+vkas implements a genetic algorithm approach to regression. It can be used to find out the relationship between a set of independent and dependent data.
 
 For example, see the following table -
-+-------------------------+
-+---- a ---  b ---  y ----+
-+     1      2      5     +
-+     3      1      5     +
-+     7      5     17     +
-+-------------------------+
 
-If a and b are independent variables and y is a dependent
-variable then what is the relationship between a, b and y?
+a|b|y
+-|-|-
+1|2|5
+3|1|5
+7|5|17
+
+If a and b are independent variables and y is a dependent variable then what is the relationship between a, b and y?
 
 Here it is "y = a+2*b".
 
-This was a very simplistic example.
-There are many methods to discover such relationships.
-However, there can be times when none of them really work!
+If a and b are independent variables and y is a dependent variable then what is the relationship between a, b and y?
 
-In such case genetic algorithm can be very useful to find
-an approaximate answer. However, it can not be guaranteed
-that the algo will discover the answer within some
-predetermined time.
+Here it is "y = a+2*b".
 
-The performance of genetic algo can be varied by adjusting
-various genetic parameters passed to it.			
+This, off course, was a very simple example. There are many regression methods to discover such relationships. GEP is one of them.
 
-In 'vkas' the data and config params are passed through
-two xml files at command-line.
+### Gene Expression Programming
 
-When vkas is run, it creates a population of chromosomes
-at random. This population is then genetically modified and
-next population is generated. Each population is subjected
-to fitness calculation and if a suitable answer chromosome
-is found then vkas stops and the answer is printed.
-If a suitable answer is not found then the program stops
-after specified max generations are over.
+Gene Expression Programming (GEP) is part of the Genetic Algorithm family. It can be used to solve optimization problems, however, it can not be guaranteed that the algorithm will coverge within some predetermined time. The performance of the algorithm can be improved by adjusting the hyper-parameters.	
+
+### How to use VKAS
+
+In 'vkas' the data and config params are passed through two xml files at command-line.
+
+When vkas is run, it creates a population of chromosomes at random. This population is then genetically modified and next population is generated. Each population is subjected
+to fitness calculation and if a suitable answer chromosome is found then vkas stops and the answer is printed. If a suitable answer is not found then the program stops after specified max generations are over.
 
 a sample run is shown at the end of this file.
 
@@ -88,7 +78,7 @@ Please see the attached VkasData.xml
 
 Summary of a test run:
 ======================
-
+```
 ***************************************************************************
                           vkas (a genetic function finder)
                           --------------------------------
@@ -206,6 +196,5 @@ Final Population 29
 Fitness = 100.0
 aa+-+-aababbbabbb-++a-a++bbbbbbaba+bb--bb+abaabbaba
 Resultant expression = {a}+{((a+((b+b)-b))-(a+(b+b)))}+{(b+b)}
-
-=============
+```
 <end of file>
