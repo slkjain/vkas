@@ -18,7 +18,7 @@ Here it is "y = a+2*b".
 
 This, off course, was a very simple example. There are many regression methods to discover such relationships. GEP is one of them.
 
-VKAS support four operators - Addition (+), Subtraction (-), Multiplication (\*) and Division (/)
+VKAS support four operators - Addition (+), Subtraction (-), Multiplication (\*) and Division (/).
 
 ### Gene Expression Programming
 
