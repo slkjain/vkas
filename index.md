@@ -1,6 +1,6 @@
-## Welcome to VKAS
+## VKAS - Linear Regression using Genetic Programming
 
-VKAS is a Java based solver that can be used to find out the relationship between a set of independent and dependent variables. I developed it way back in 2005 based on the paper [Gene Expression Programming in Problem Solving](https://www.gene-expression-programming.com/webpapers/ferreira-WSC6.pdf). VKAS source code was earlier published on [SourceForge](https://sourceforge.net/projects/vikasg/). I recently moved the source code to GitHub.
+VKAS is a Java based solver that can be used to find out the relationship between a set of independent and dependent variables. I developed it way back in 2005 based on the paper [Gene Expression Programming in Problem Solving](https://www.gene-expression-programming.com/webpapers/ferreira-WSC6.pdf). VKAS source code was earlier published on [SourceForge](https://sourceforge.net/projects/vikasg/). It has been recently moved from SourceForge to GitHub.
 
 ### What method does VKAS use
 
@@ -17,6 +17,8 @@ If a and b are independent variables and y is a dependent variable then what is 
 Here it is "y = a+2*b".
 
 This, off course, was a very simple example. There are many regression methods to discover such relationships. GEP is one of them.
+
+VKAS support four operators - Addition (+), Subtraction (-), Multiplication (\*) and Division (/)
 
 ### Gene Expression Programming
 
